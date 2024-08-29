@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css"><link rel="stylesheet" href="styles.css">
+    <title>Frank Slide Maps</title>
+</head>
+<body>
+    <h1>Frank Slide Climbing Sectors</h1>
+    
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1e1OK8y6BK0F8S--VjSOZXZcsFo6j_AM&ehbc=2E312F" width="640" height="880"></iframe>
+    
+</body>
+<footer> 
+    <div id="footer-content">
+        <p>Owner: Dominique Marcil</p>
+        <p>Last Updated: <span id="last-updated"></span></p>
+    </div>
+    <script>
+        document.getElementById('last-updated').textContent = new Date(document.lastModified).toLocaleString();
+    </script>
+</footer>
+</html>
